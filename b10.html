@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="b4.css">
+    <title>Grocery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="main.html">Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="b2.html">Product</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customer Care
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="b8.html">Help</a>
+                        <div class="dropdown-divider"></div>
+                        <!-- <a class="dropdown-item" href="#">Feedback</a> -->
+                        <button class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#feedback">Feedback</button>
+                    </div>
+                    <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="signinModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="signinModalLabel">Feedback</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormEmail1">Email address/Phone number</label>
+                                            <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                                placeholder="email@example.com/1234567892">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormPassword1">Message</label>
+                                            <input type="password" class="form-control"
+                                                id="exampleDropdownFormPassword1" placeholder="Message">
+                                        </div>
+                                        <!-- radio buttun -->
+                                        <p>Rating for quality of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Excellent
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                Good
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Normal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option4">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Bad
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option5">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Very Bad
+                                            </label>
+                                        </div>
+                                        <p>Rating for delivery of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Before Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                On Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Late
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary" href="#">Submit</button>
+
+
+                                    </form>
+                                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="b9.html">List<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Shop Location</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <!-- <div class="mx-2">
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#LoginModal">Login</button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#signupModal">Sign
+                        Up</button>
+                </div> -->
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="services-container">
+            <h1 id="one">Avaliable Products</h1>
+            <div id="services">
+                <div class="box">
+                    <h2 class="h-secondary center"></h2>
+                    <p class="center">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sr.no</th>
+                                <th>Name of item</th>
+                                <th>Price per item</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>1)</td>
+                                <td>Pen</td>
+                                <td>5,10,20,50</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Pencile</td>
+                                <td>5,7</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>Notebook</td>
+                                <td>30,50,80</td>
+                            </tr>
+                            <tr>
+                                <td>4)</td>
+                                <td>Eraser</td>
+                                <td>5,10</td>
+                            </tr>
+                            <tr>
+                                <td>5)</td>
+                                <td>Glue</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>6)</td>
+                                <td>Stapler</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>7)</td>
+                                <td>Stapler pins</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>8)</td>
+                                <td>Marker</td>
+                                <td>10,20</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    </p>
+                </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

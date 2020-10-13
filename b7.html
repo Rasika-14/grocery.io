@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="b4.css">
+    <title>Grocery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="main.html">Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="b2.html">Product</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customer Care
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="b8.html">Help</a>
+                        <div class="dropdown-divider"></div>
+                        <!-- <a class="dropdown-item" href="#">Feedback</a> -->
+                        <button class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#feedback">Feedback</button>
+                    </div>
+                    <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="signinModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="signinModalLabel">Feedback</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormEmail1">Email address/Phone number</label>
+                                            <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                                placeholder="email@example.com/1234567892">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormPassword1">Message</label>
+                                            <input type="password" class="form-control"
+                                                id="exampleDropdownFormPassword1" placeholder="Message">
+                                        </div>
+                                        <!-- radio buttun -->
+                                        <p>Rating for quality of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Excellent
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                Good
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Normal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option4">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Bad
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option5">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Very Bad
+                                            </label>
+                                        </div>
+                                        <p>Rating for delivery of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Before Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                On Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Late
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary" href="#">Submit</button>
+
+
+                                    </form>
+                                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="b9.html">List<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Shop Location</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <!-- <div class="mx-2">
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#LoginModal">Login</button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#signupModal">Sign
+                        Up</button>
+                </div> -->
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="services-container">
+            <h1 id="one">Avaliable Products</h1>
+            <div id="services">
+                <div class="box">
+                    <h2 class="h-secondary center"></h2>
+                    <p class="center">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sr.no</th>
+                                <th>Name of item</th>
+                                <th>Price per item</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td>Personal Care</td>
+                                <td>per pack</td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td>Soap</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1)</td>
+                                <td>Santoor</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Dove</td>
+                                <td>55</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>Liril</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>4)</td>
+                                <td>Pears</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>5)</td>
+                                <td>Dettol</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>6)</td>
+                                <td>Lux</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>7)</td>
+                                <td>Medimix</td>
+                                <td>35</td>
+                            </tr>
+                            <tr>
+                                <td>8)</td>
+                                <td>Cinthol</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>9)</td>
+                                <td>Moti</td>
+                                <td>65</td>
+                            </tr>
+                            <tr>
+                                <td>10)</td>
+                                <td>Milininum</td>
+                                <td>800</td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td></td>
+                                <td>Cloth Soap</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>1)</td>
+                                <td>Wheel (Green)</td>
+                                <td>5,10</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Wheel (Blue)</td>
+                                <td>5,10</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>Rin</td>
+                                <td>15,30</td>
+                            </tr>
+                            <tr>
+                                <td>4)</td>
+                                <td>Surf-exle</td>
+                                <td>30,50</td>
+                            </tr>
+                            <tr>
+                                <td>5)</td>
+                                <td>Sargam</td>
+                                <td>10</td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td></td>
+                                <td>Face Creams</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1)</td>
+                                <td>Fai and Lovely</td>
+                                <td>40,60,150</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Vicco turmeric</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>Nevia</td>
+                                <td>90</td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td></td>
+                                <td>Powder</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>1)</td>
+                                <td>White tone</td>
+                                <td>82</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Ponds</td>
+                                <td>10,46,160</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>Himalaya</td>
+                                <td>60,140</td>
+                            </tr>
+                            <tr>
+                                <td>4)</td>
+                                <td>Johnson's</td>
+                                <td>20,150</td>
+                            </tr>
+                            <tr>
+                                <td>5)</td>
+                                <td>Navaratna</td>
+                                <td>80</td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td></td>
+                                <td>Toothpaste</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>1)</td>
+                                <td>Pepsodent</td>
+                                <td>30,50,100</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Colgate</td>
+                                <td>10,40,87,270</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>Sensodyne</td>
+                                <td>60,140</td>
+                            </tr>
+                            <tr>
+                                <td>4)</td>
+                                <td>Closeup</td>
+                                <td>20,50</td>
+                            </tr>
+                            <tr>
+                                <td>5)</td>
+                                <td>Babool</td>
+                                <td>80</td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td></td>
+                                <td>HandWash</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1)</td>
+                                <td>Detol</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Santoor</td>
+                                <td>90</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>Savelon</td>
+                                <td>70</td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td></td>
+                                <td>Sanitary napkins</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>1)</td>
+                                <td>Whisper</td>
+                                <td>30,45,70</td>
+                            </tr>
+                            <tr>
+                                <td>2)</td>
+                                <td>Stayfree</td>
+                                <td>30,50,120</td>
+                            </tr>
+                            <tr>
+                                <td>3)</td>
+                                <td>nine</td>
+                                <td>30,50</td>
+                            </tr>
+                            <tr>
+                                <td>4)</td>
+                                <td>Pro-ease</td>
+                                <td>30,50</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    </p>
+                </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="b4.css">
+    <title>shop3</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="main.html">Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="b2.html">Product</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customer Care
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="b8.html">Help</a>
+                        <div class="dropdown-divider"></div>
+                        <!-- <a class="dropdown-item" href="#">Feedback</a> -->
+                        <button class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#feedback">Feedback</button>
+                    </div>
+                    <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="signinModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="signinModalLabel">Feedback</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormEmail1">Email address/Phone number</label>
+                                            <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                                placeholder="email@example.com/1234567892">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormPassword1">Message</label>
+                                            <input type="password" class="form-control"
+                                                id="exampleDropdownFormPassword1" placeholder="Message">
+                                        </div>
+                                        <!-- radio buttun -->
+                                        <p>Rating for quality of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Excellent
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                Good
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Normal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option4">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Bad
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option5">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Very Bad
+                                            </label>
+                                        </div>
+                                        <p>Rating for delivery of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Before Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                On Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Late
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary" href="#">Submit</button>
+
+
+                                    </form>
+                                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="b9.html">List<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Shop Location</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <!-- <div class="mx-2">
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#LoginModal">Login</button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#signupModal">Sign
+                        Up</button>
+                </div> -->
+            </form>
+        </div>
+    </nav>
+    <h3>Product Quality</h3>
+    <p>
+        Food quality is the quality characteristics of food that is acceptable to consumers. This includes external
+        factors as appearance (size, shape, colour, gloss, and consistency), texture, and flavour; factors such as
+        federal grade standards (e.g. of eggs) and internal (chemical, physical, microbial).
+
+        Food quality in the United States is enforced by the Food Safety Act 1990. Members of the public complain to
+        trading standards professionals,[specify] who submit complaint samples and also samples used to routinely
+        monitor the food marketplace to public analysts. Public analysts carry out scientific analysis on the samples to
+        determine whether the quality is of sufficient standard.
+
+        Food quality is an important food manufacturing requirement, because food consumers are susceptible to any form
+        of contamination that may occur during the manufacturing process.Many consumers also rely on manufacturing
+        and processing standards, particularly to know what ingredients are present, due to dietary, nutritional
+        requirements (kosher, halal, vegetarian), or medical conditions (e.g., diabetes, or allergies).
+
+        Besides ingredient quality, there are also sanitation requirements. It is important to ensure that the food
+        processing environment is as clean as possible in order to produce the safest possible food for the consumer. A
+        recent example of poor sanitation recently has been the 2006 North American E. coli outbreak involving spinach,
+        an outbreak that is still under investigation.
+
+        Food quality also deals with product traceability, (e.g., of ingredient, and packaging suppliers), should a
+        recall of the product be required. It also deals with labeling issues to ensure there is correct ingredient and
+        nutritional information.
+
+        There are many existing international quality institutes testing food products in order to indicate to all
+        consumers which are higher quality products. Founded in 1961 in Brussels, The international Monde Selection
+        quality award is the oldestn in evaluating food quality. During the degustations, the products must meet
+        the following selection criteria, required by the Institute: sensory analysis, bacteriological and chemical
+        analysis, the nutrition and health claims, and the utilisation notice. In short, the judgements are based on the
+        following areas: taste, health, convenience, labelling, packaging, environmental friendliness and innovation.
+        As many consumers rely on manufacturing and processing standards, the Institute Monde Selection takes into
+        account the European Food Law.
+    </p>
+
+    <h1>Contact to Shop Owner</h1>
+    <p>Please contact us if you have any dout about product,delivary,replacement. </p>
+    <p>we are always there for you during shop timing...</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Mobile no.</th>
+            <th>Email id</th>
+        </tr>
+        <tr>
+            <td>Vishnu (santosh) Keshav Girvikar.</td>
+            <td>1234567899</td>
+            <td>@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Varsha Vishnu Girvikar.</td>
+            <td>1234567899</td>
+            <td>@gmail.com</td>
+        </tr>
+    </table>
+</body>
+
+</html>

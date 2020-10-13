@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Grocery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="main.html">Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="b2.html">Product</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customer Care
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="b8.html">Help</a>
+                        <div class="dropdown-divider"></div>
+                        <!-- <a class="dropdown-item" href="#">Feedback</a> -->
+                        <button class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#feedback">Feedback</button>
+                    </div>
+                    <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="signinModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="signinModalLabel">Feedback</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormEmail1">Email address/Phone number</label>
+                                            <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                                placeholder="email@example.com/1234567892">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleDropdownFormPassword1">Message</label>
+                                            <input type="password" class="form-control"
+                                                id="exampleDropdownFormPassword1" placeholder="Message">
+                                        </div>
+                                        <!-- radio buttun -->
+                                        <p>Rating for quality of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Excellent
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                Good
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Normal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios4" value="option4">
+                                            <label class="form-check-label" for="exampleRadios4">
+                                                Bad
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios5" value="option5">
+                                            <label class="form-check-label" for="exampleRadios5">
+                                                Very Bad
+                                            </label>
+                                        </div>
+                                        <p>Rating for delivery of products</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Before Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                On Time
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios1"
+                                                id="exampleRadios3" value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Late
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary" href="#">Submit</button>
+
+
+                                    </form>
+                                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="b9.html">List<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Shop Location</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <!-- <div class="mx-2">
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#LoginModal">Login</button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#signupModal">Sign
+                        Up</button>
+                </div> -->
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <img src="staple.jpg" class="card-img-top" alt="Staple">
+                <div class="card-body">
+                    <h5><a class="card-title" href="b3.html">Staple Food</a></h5>
+                    <!-- <h5 class="card-title">Staple food</h5> -->
+                    <p class="card-text">A staple food, food staple, or simply a staple, is a food that is eaten
+                        routinely
+                        and in such quantities that it constitutes a dominant portion of a standard diet for a given
+                        people,
+                        supplying a large fraction of energy needs and generally forming a significant proportion of the
+                        intake of other nutrients as well.Plant-based food staples may not provide a full range of
+                        nutrients. </p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="readytoeat.jpg" class="card-img-top" alt="Ready to Eat">
+                <div class="card-body">
+                    <h5><a class="card-title" href="b4.html">Ready to Eat</a></h5>
+                    <p class="card-text">Ready-to-eat (RTE) foods are a group of food products that are pre-cleaned,
+                        precooked, mostly packaged and ready for consumption without prior preparation or cooking.
+                        According
+                        to the 2009 US Food code (FDA, 2009), RTE foods should be in an edible form without an
+                        additional
+                        preparation step to achieve food safety.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="m2.jpg" alt="masale">
+                <div class="card-body">
+                    <h5><a class="card-title" href="b5.html">Masale</a></h5>
+                    <p class="card-text">In this section, we have gathered for you, a huge selection of great food from
+                        the
+                        kitchens of Maharashtra! We feel you will both enjoy this knowledge base as also use it to good
+                        personal purpose.
+
+                        There are easy snacks, authentic entrees, elaborate festive foods, beverages, desserts as well
+                        as
+                        tons of convenient everyday Maharashtrian fare, that is both fulsome and wholesome.</p>
+                </div>
+
+            </div>
+        </div>
+        <p></p>
+        <div class="card-deck">
+            <div class="card">
+                <img src="dry1.jpg" class="card-img-top" alt="Dry Fruits">
+                <div class="card-body">
+                    <h5><a class="card-title" href="b6.html">Dry Fruits</a></h5>
+                    <p class="card-text">In simple terms, a nut is also known as a dry fruit. A dry fruit can be
+                        categorized
+                        as indehiscent and dehiscent. Dehiscent refers to seed enclosed in a pod while indehiscent
+                        refers to
+                        seeds which aren't found in a seed pod. This takes account of cashew nuts, pistachios, almonds,
+                        and
+                        walnuts.</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="pc.jpg" class="card-img-top" alt="Personal Care">
+                <div class="card-body">
+                    <h5><a class="card-title" href="b7.html">Personal care</a></h5>
+                    <p class="card-text">
+                    </p>Good personal hygiene is very important in today's society for both health and social reasons.
+                    Keeping your hands and body clean is vital in stopping the development and spread of illness and
+                    infection. This simple habit doesn't just benefit your health – it can help protect those around you
+                    too.
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="stationary.jpg" class="card-img-top" alt="Stationary">
+                <div class="card-body">
+                    <h5><a class="card-title" href="b10.html">Stationary</a></h5>
+                    <p class="card-text">Stationery is useful for sending official letters, jotting down quick notes, or
+                        adding a touch of class to handwritten statements. Custom stationery also makes it easy to
+                        reinforce
+                        and spread your brand. You do exactly that with every printed memo and correspondence.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIonary">
+            <div class="card-body">
+                <h5><a class="card-title" href="b10.html">Stationary</a></h5>
+                <p class="card-text">Stationery is useful for senyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
